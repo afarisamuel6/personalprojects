@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://images.pexels.com/photos/735869/pexels-photo-735869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 700px;
+    
+}
+
+.formbegin{
+    background-color: black;
+    opacity: 80%;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+}
+
+.input{
+    font-size: 18px;
+    color: azure;
+    padding: 10px;
+    width: 400px;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.input #textarea {
+    width: fit-content;
+}
+
+label{
+    flex-basis: 130px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#login{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    margin: 20px 0;
+}
+
+#login:hover{
+    background-color: rgb(43, 6, 78);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.checkbox{
+    display: flex;
+
+}
+
+.checkbox div{
+flex: 1;
+}
+
+.checkbox a{
+    text-decoration: none;
+    color: white;
+}
+
+.checkbox a:hover{
+    color: rgb(231, 28, 28);
+}
+
+
+#textarea{
+    padding: 10px;
+    width: 300px;
+    font-size: 10px;
+    flex-basis: 130px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#notice {
+    flex: 30% 70%;
+    margin-top: -28px !important ;
+    color: white;
+
+}
+
+@media screen {
+    
+}
